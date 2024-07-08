@@ -1,5 +1,9 @@
 * text=auto
-
+*.php linguist-detectable=true
+*.blade.php linguist-detectable=true
+.env linguist-detectable=true
+config/*.php linguist-detectable=true
+*.log linguist-detectable=false
 *.blade.php diff=html
 *.css diff=css
 *.html diff=html
